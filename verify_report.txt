@@ -1,0 +1,35 @@
+ID: 2018_Java프로그래밍_q36
+Year: 2018, Subject: Java프로그래밍, QNum: 36
+Page: 1
+Answer: [4]
+Explanation: Eclipse for JavaScript는 자바 개발(JDK, JVM 등)을 위해 필수적인 도구가 아닙니다. 자바 프로그램 실행 및 개발에는 JDK, JVM, JRE 등이 핵심 요소입니다.
+Choices: ['Java Platform', 'Java VM', 'JDK', 'Eclipse for JavaScript']
+--------------------------------------------------
+ID: 2018_Java프로그래밍_q37
+Year: 2018, Subject: Java프로그래밍, QNum: 37
+Page: 1
+Answer: [3]
+Explanation: 배열 선언 이후 초기화할 때는 'c = {1, 2, 3, 4};' 와 같이 단독으로 사용할 수 없으며, 'c = new int[]{1, 2, 3, 4};' 형식으로 지정해야 합니다.
+Choices: ['int[ ] a = new int[10];', 'intb[]={1.2.3.4};', 'int[]c; c= {1, 2, 3, 4};', 'int[ ][] d = new int[10][ ],']
+--------------------------------------------------
+ID: 2018_Java프로그래밍_q38
+Year: 2018, Subject: Java프로그래밍, QNum: 38
+Page: 1
+Answer: [2]
+Explanation: 두 변수 i와 j 사이에 공백을 포함하여 출력하기 위해서는 'i + " " + j' 형태로 문자열 결합을 수행해야 합니다.
+Choices: ['①번 보기', '②번 보기', '③번 보기', '④번 보기']
+--------------------------------------------------
+ID: 2018_Java프로그래밍_q39
+Year: 2018, Subject: Java프로그래밍, QNum: 39
+Page: 1
+Answer: [4]
+Explanation: 자바는 단일 상속(extends Class)과 다중 인터페이스 구현(implements Interface1, Interface2...)을 지원하므로 'class A extends B implements Y, Z'가 올바른 구조입니다.
+Choices: ['①번 보기', '②번 보기', '③번 보기', '④번 보기']
+--------------------------------------------------
+ID: 2018_Java프로그래밍_q40
+Year: 2018, Subject: Java프로그래밍, QNum: 40
+Page: 1
+Answer: [2]
+Explanation: 메소드 오버라이딩 시 매개변수와 반환 타입이 동일해야 하며, 접근 제어자는 부모 클래스의 메소드보다 같거나 넓은 범위를 가져야 합니다. (protected인 compute 메소드는 protected 또는 public으로 재정의 가능하므로 a, b 모두 가능)
+Choices: ['①번 보기', '②번 보기', '③번 보기', '④번 보기']
+--------------------------------------------------

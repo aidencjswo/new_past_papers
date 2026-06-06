@@ -1,0 +1,1110 @@
+[
+  {
+    "id": "2018_Java프로그래밍_q36",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 36,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q36.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > C열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q36.png",
+    "explanation": "Eclipse for JavaScript는 자바 개발(JDK, JVM 등)을 위해 필수적인 도구가 아닙니다. 자바 프로그램 실행 및 개발에는 JDK, JVM, JRE 등이 핵심 요소입니다.",
+    "choices": [
+      "Java Platform",
+      "Java VM",
+      "JDK",
+      "Eclipse for JavaScript"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q37",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 37,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q37.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > D열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q37.png",
+    "explanation": "배열 선언 이후 초기화할 때는 'c = {1, 2, 3, 4};' 와 같이 단독으로 사용할 수 없으며, 'c = new int[]{1, 2, 3, 4};' 형식으로 지정해야 합니다.",
+    "choices": [
+      "int[ ] a = new int[10];",
+      "intb[]={1.2.3.4};",
+      "int[]c; c= {1, 2, 3, 4};",
+      "int[ ][] d = new int[10][ ],"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q38",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 38,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q38.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > E열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q38.png",
+    "explanation": "두 변수 i와 j 사이에 공백을 포함하여 출력하기 위해서는 'i + \" \" + j' 형태로 문자열 결합을 수행해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q39",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 39,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q39.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > F열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q39.png",
+    "explanation": "자바는 단일 상속(extends Class)과 다중 인터페이스 구현(implements Interface1, Interface2...)을 지원하므로 'class A extends B implements Y, Z'가 올바른 구조입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q40",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 40,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q40.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > G열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q40.png",
+    "explanation": "메소드 오버라이딩 시 매개변수와 반환 타입이 동일해야 하며, 접근 제어자는 부모 클래스의 메소드보다 같거나 넓은 범위를 가져야 합니다. (protected인 compute 메소드는 protected 또는 public으로 재정의 가능하므로 a, b 모두 가능)",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q41",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 41,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q41.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > H열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q41.png",
+    "explanation": "인터페이스나 클래스를 상속받아 이름 없이 정의하는 동시에 객체를 생성하는 구문으로, 'CSuper 클래스를 상속받는 익명 클래스를 정의하고 동시에 객체를 생성한다'가 맞습니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q42",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 42,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q42.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > I열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q42.png",
+    "explanation": "컴파일 시 외부 클래스(CSuper), 메인 클래스(AnonymousTest), 그리고 익명 클래스(AnonymousTest$1)가 각각 .class 파일로 생성되므로 총 3개의 클래스 파일이 생성됩니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q43",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 43,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q43.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > J열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q43.png",
+    "explanation": "추상 클래스(abstract class)는 직접 객체(인터페이스와 마찬가지로 new를 통한 인스턴스)를 생성할 수 없습니다. 따라서 '추상 클래스는 인스턴스를 생성시킬 수 있다'는 설명은 잘못되었습니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q44",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 44,
+    "page": 1,
+    "images": [
+      "2018_Java프로그래밍_q44.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > K열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q44.png",
+    "explanation": "자바의 제네릭(Generic) 타입 매개변수에는 기본 자료형(int, double 등)을 사용할 수 없으며, 반드시 래퍼 클래스(Integer, Double 등) 객체 타입을 사용해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q45",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 45,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q45.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > L열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q45.png",
+    "explanation": "str1과 str2는 동일한 인스턴스를 가리키므로 참조 비교(==) 결과가 true입니다. 반면 str3은 new 키워드로 새로운 인스턴스를 생성했으므로 'str2 == str3'는 참조 주소가 달라 false를 반환합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q46",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 46,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q46.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > M열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q46.png",
+    "explanation": "자바의 String 클래스는 불변(immutable) 객체이므로 문자열이 자주 수정되는 프로그램에서는 성능 저하를 방지하기 위해 가변 객체인 StringBuffer 또는 StringBuilder를 사용하는 것이 좋습니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q47",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 47,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q47.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > N열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q47.png",
+    "explanation": "바이트 단위로 파일 입력을 처리하는 대표적인 입력 스트림 클래스는 FileInputStream입니다. FileReader는 문자 단위 입력 스트림입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q48",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 48,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q48.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > O열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q48.png",
+    "explanation": "NIO에서 'fileChannel.read(buffer)' 메소드는 파일 채널로부터 데이터를 읽어서 인자로 전달된 buffer에 기록하는 역할을 수행합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q49",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 49,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q49.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > P열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q49.png",
+    "explanation": "자바 컬렉션 프레임워크 중 순서를 유지하지 않고 중복을 허용하지 않는 자료구조 인터페이스는 Set입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q50",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 50,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q50.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > Q열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q50.png",
+    "explanation": "Map 인터페이스는 키(Key)와 값(Value)의 쌍으로 저장되므로 제네릭 선언 시 'Map<String, Type>'과 같이 두 개의 타입 매개변수를 지정해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q51",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 51,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q51.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > R열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q51.png",
+    "explanation": "Thread.yield() 메소드는 현재 실행 중인 스레드가 동일한 우선순위를 가진 다른 스레드에게 CPU 제어권을 양보하도록 유도합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q52",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 52,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q52.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > S열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q52.png",
+    "explanation": "join() 메소드는 해당 스레드가 종료될 때까지 호출한 스레드(여기서는 메인 스레드)를 대기(waiting) 상태로 만들어 결과적으로 메인 스레드의 'finished' 출력이 가장 마지막에 실행됩니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q53",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 53,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q53.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > T열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q53.png",
+    "explanation": "Thread의 join() 호출은 InterruptedException 예외를 발생시킬 수 있으므로 메소드 선언부에 'throws InterruptedException'을 추가하여 예외 처리를 전달해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q54",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 54,
+    "page": 2,
+    "images": [
+      "2018_Java프로그래밍_q54.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > U열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q54.png",
+    "explanation": "AWT에서 여러 항목 중 하나를 선택할 수 있도록 해주는 드롭다운 형태의 컴포넌트는 Choice 클래스입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q55",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 55,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q55.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > V열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q55.png",
+    "explanation": "List 컴포넌트에서 특정 항목을 마우스로 싱글 클릭하면 ItemEvent가 발생하고, 더블 클릭하면 ActionEvent가 발생합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q56",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 56,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q56.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > W열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q56.png",
+    "explanation": "화면에 배치된 컴포넌트들이 2행 3열의 바둑판 형태로 균일하게 정렬된 것은 GridLayout 배치 관리자를 사용한 것입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q57",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 57,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q57.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > X열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q57.png",
+    "explanation": "이벤트 핸들러인 WindowAdapter는 클래스이므로 상속받기 위해 'extends WindowAdapter'를 사용해야 합니다. (WindowListener는 인터페이스이므로 implements 구현이 필요함)",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q58",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 58,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q58.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > Y열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q58.png",
+    "explanation": "프레임에 윈도우 이벤트 리스너를 등록하는 메소드는 addWindowListener()이며, 객체를 생성해 인자로 넘겨주어야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q59",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 59,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q59.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > Z열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q59.png",
+    "explanation": "주어진 세 문장은 순서대로 1. 데이터베이스 연결 수립(getConnection), 2. SQL 질의 작성을 위한 Statement 객체 생성(createStatement), 3. SQL 실행 및 결과 반환(executeQuery) 단계를 나타냅니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2018_Java프로그래밍_q60",
+    "year": 2018,
+    "subject": "Java프로그래밍",
+    "q_num": 60,
+    "page": 3,
+    "images": [
+      "2018_Java프로그래밍_q60.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2018 시트 > Java프로그래밍 (5행) > AA열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2018_Java프로그래밍_q60.png",
+    "explanation": "JDBC에서 SELECT 쿼리 질의 결과를 담아 반환하는 executeQuery() 메소드의 반환 객체 타입은 ResultSet입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q36",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 36,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_q36.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > C열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q36.png",
+    "explanation": "Java 파일 컴파일 시 바이트코드 형태로 생성되는 실행 파일의 확장자는 '.class'입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q37",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 37,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_q37.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > D열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q37.png",
+    "explanation": "자바 가상 머신(JVM)은 바이트코드로 된 프로그램(.class 파일)을 실행시키는 자바 플랫폼의 핵심 구성 요소입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q38",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 38,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_context_38_39.png",
+      "2019_Java프로그래밍_q38.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > E열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q38.png",
+    "explanation": "main 메소드의 시그니처는 반드시 'public static void main(String[] args)' 형식이어야 합니다. 매개변수명은 달라도 되나 String 배열 타입은 필수적입니다.",
+    "choices": [
+      "클래스 간의 상속 관계가 존재한다.",
+      "Employee 클래스를 이용하여 자식 클래스를 정의하였다.",
+      "부모 클래스가 추상 클래스로 정의되어 있다.",
+      "부모 유형의 변수에 자식 객체가 대입되었다."
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q39",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 39,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_context_38_39.png",
+      "2019_Java프로그래밍_q39.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > F열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q39.png",
+    "explanation": "정수(int)형과 실수(double)형 연산 시, 정수형 변수가 실수형으로 자동 타입 변환(promotion)되어 연산이 수행됩니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q40",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 40,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_q40.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > G열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q40.png",
+    "explanation": "클래스 내에서 인스턴스 변수와 메소드는 객체를 생성(new)한 후에만 사용할 수 있지만, static이 붙은 클래스(정적) 변수와 정적 메소드는 객체 생성 없이 사용할 수 있습니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q41",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 41,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_q41.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > H열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q41.png",
+    "explanation": "생성자(Constructor)는 객체 생성 시 new 구문에 의해 호출되며, 부모 클래스의 생성자를 명시적으로 호출할 때는 super() 키워드를 첫 줄에 사용해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q42",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 42,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_context_42_43.png",
+      "2019_Java프로그래밍_q42.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > I열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q42.png",
+    "explanation": "클래스 A가 클래스 B를 상속받는 구문은 'class A extends B'로 표현됩니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q43",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 43,
+    "page": 1,
+    "images": [
+      "2019_Java프로그래밍_context_42_43.png",
+      "2019_Java프로그래밍_q43.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > J열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q43.png",
+    "explanation": "메소드 오버로딩(Overloading)은 동일한 메소드 이름을 사용하되 매개변수의 개수나 타입을 다르게 하여 정의하는 기법입니다.",
+    "choices": [
+      "catch ( java io.IOException )",
+      "catch ( java.io.IOException e )",
+      "catch ( java io.IOException ex )",
+      "finally"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q44",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 44,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q44.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > K열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q44.png",
+    "explanation": "가시성(접근 제어)이 가장 좁은 것부터 넓은 순서대로 정렬하면 private -> default(package) -> protected -> public 순입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q45",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 45,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q45.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > L열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q45.png",
+    "explanation": "추상 클래스(abstract class)는 추상 메소드를 포함할 수 있는 클래스로, 단독으로 인스턴스화(객체 생성)할 수 없고 반드시 서브클래스에서 상속받아 오버라이딩해야 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q46",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 46,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q46.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > M열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q46.png",
+    "explanation": "자바에서 모든 클래스의 최상위 부모 클래스는 java.lang.Object 클래스입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q47",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 47,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q47.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > N열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q47.png",
+    "explanation": "자바 예외 처리에서 예외 발생 여부와 상관없이 무조건 실행해야 하는 코드 블록은 finally 블록입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q48",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 48,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q48.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > O열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q48.png",
+    "explanation": "자바의 문자열 클래스 중 String은 한번 생성되면 변하지 않는 불변(immutable) 클래스이며, StringBuffer와 StringBuilder는 가변(mutable) 클래스입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q49",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 49,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q49.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > P열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q49.png",
+    "explanation": "문자 단위 파일 입력을 처리하기 위해 사용되는 스트림 클래스는 FileReader입니다. FileInputStream은 바이트 단위 입력에 사용됩니다.",
+    "choices": [
+      "Account 객 체",
+      "Counter 객체",
+      "increment( ) 메 소드",
+      "getVaIue( ) 메소드"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q50",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 50,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q50.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > Q열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q50.png",
+    "explanation": "NIO의 버퍼(Buffer) 속성 중 버퍼에 저장할 수 있는 최대 데이터 개수를 의미하는 것은 capacity입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q51",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 51,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q51.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > R열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q51.png",
+    "explanation": "자바에서 새로운 독립적 실행 흐름(스레드)을 만들기 위해 구현해야 하는 대표적인 인터페이스는 Runnable 인터페이스입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q52",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 52,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q52.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > S열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q52.png",
+    "explanation": "스레드의 상태 중 실행 대기 상태에서 CPU를 할당받아 실행되는 상태로 전이하는 과정을 디스패치(Dispatch)라고 합니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q53",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 53,
+    "page": 2,
+    "images": [
+      "2019_Java프로그래밍_q53.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > T열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q53.png",
+    "explanation": "스레드가 실행되는 핵심 로직을 오버라이딩하는 Runnable 인터페이스의 메소드는 run() 메소드입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q54",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 54,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_q54.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > U열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q54.png",
+    "explanation": "AWT GUI에서 마우스 클릭 등의 버튼 컴포넌트에서 이벤트 발생 시 동작을 처리하기 위해 구현해야 하는 이벤트 리스너 인터페이스는 ActionListener입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q55",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 55,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_context_55_58.png",
+      "2019_Java프로그래밍_q55.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > V열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q55.png",
+    "explanation": "여러 컴포넌트를 카드처럼 겹쳐두고 특정 시점에 하나의 카드만 보여주도록 관리하는 AWT 배치 관리자는 CardLayout입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q56",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 56,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_context_55_58.png",
+      "2019_Java프로그래밍_q56.png"
+    ],
+    "answer": [
+      1
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > W열의 값: '1' (정답: 1번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q56.png",
+    "explanation": "자바 GUI에서 화면의 그래픽을 다시 그리도록 요청할 때 내부적으로 paint() 메소드를 호출하는 메소드는 repaint()입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q57",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 57,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_context_55_58.png",
+      "2019_Java프로그래밍_q57.png"
+    ],
+    "answer": [
+      2
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > X열의 값: '2' (정답: 2번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q57.png",
+    "explanation": "메소드 내에 임시로 정의하여 해당 메소드 안에서만 사용하는 클래스를 로컬 클래스(Local Class)라고 부릅니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q58",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 58,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_context_55_58.png",
+      "2019_Java프로그래밍_q58.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > Y열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q58.png",
+    "explanation": "데이터베이스 연결, 질의문 실행 등 자바 프로그램에서 관계형 데이터베이스(RDBMS)에 접속할 수 있도록 해주는 표준 API는 JDBC입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q59",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 59,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_q59.png"
+    ],
+    "answer": [
+      3
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > Z열의 값: '3' (정답: 3번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q59.png",
+    "explanation": "JDBC를 통해 데이터베이스에 연결하기 위해 가장 먼저 필요한 객체 연결 과정은 DriverManager.getConnection()을 사용하는 것입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  },
+  {
+    "id": "2019_Java프로그래밍_q60",
+    "year": 2019,
+    "subject": "Java프로그래밍",
+    "q_num": 60,
+    "page": 3,
+    "images": [
+      "2019_Java프로그래밍_q60.png"
+    ],
+    "answer": [
+      4
+    ],
+    "evidence": "정답표.xlsx > 2019 시트 > Java프로그래밍 (5행) > AA열의 값: '4' (정답: 4번)",
+    "excel_image": "excel_evidence_2019_Java프로그래밍_q60.png",
+    "explanation": "디지털 포렌식이나 증거물 수집 시 원본 파일의 훼손 여부를 확인하기 위해 데이터 무결성 검증용 해시값을 연산하는 대표적인 해시 알고리즘은 SHA-256 등입니다.",
+    "choices": [
+      "①번 보기",
+      "②번 보기",
+      "③번 보기",
+      "④번 보기"
+    ]
+  }
+]

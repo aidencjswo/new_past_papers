@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>인터랙티브 기출문제 학습기</title>
+    <!-- Google Fonts for premium typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <!-- Left Sidebar for navigation & control -->
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="mark">Q</span>
+          <div>
+            <h1>기출문제 풀이</h1>
+            <p>스마트 문제풀이 & 오답 체크</p>
+          </div>
+        </div>
+
+        <!-- Dynamic Year and Subject Selectors -->
+        <div class="selector-card">
+          <div class="form-group">
+            <label for="yearSelect">출제년도</label>
+            <select id="yearSelect">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="subjectSelect">교과목명</label>
+            <select id="subjectSelect">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+        </div>
+
+        <!-- Study Stats -->
+        <div class="stats-container" aria-label="학습 현황">
+          <div class="stat-item">
+            <span class="stat-label">전체 문제</span>
+            <strong id="totalCount">0</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">해결 완료</span>
+            <strong id="doneCount">0</strong>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">정답률</span>
+            <strong id="correctRate">0%</strong>
+          </div>
+        </div>
+
+        <!-- Search & Filter Controls -->
+        <div class="controls-card">
+          <label class="search-box">
+            <input id="searchInput" type="search" placeholder="문제 검색 (번호, 내용...)" />
+          </label>
+          <div class="filters" role="group" aria-label="문제 필터">
+            <button class="active" type="button" data-filter="all">전체</button>
+            <button type="button" data-filter="todo">미완료</button>
+            <button type="button" data-filter="incorrect">오답노트</button>
+          </div>
+        </div>
+
+        <!-- Scrollable Question List -->
+        <div id="questionList" class="question-list" aria-label="문제 목록">
+          <!-- Dynamically populated -->
+        </div>
+      </aside>
+
+      <!-- Right Study Area for solving -->
+      <section class="study">
+        <header class="toolbar">
+          <button id="prevBtn" type="button" aria-label="이전 문제">‹</button>
+          <div class="current-info">
+            <span id="positionLabel">0 / 0</span>
+            <h2 id="titleLabel">교과목을 선택해주세요</h2>
+          </div>
+          <button id="nextBtn" type="button" aria-label="다음 문제">›</button>
+        </header>
+
+        <article class="card">
+          <!-- Page Info / Metadata -->
+          <div class="meta-info">
+            <span id="yearLabel" class="meta-tag">년도</span>
+            <span id="subjectLabel" class="meta-tag">과목</span>
+            <span id="statusLabel" class="meta-tag status">대기 중</span>
+          </div>
+
+          <!-- Question Images Container (Displays cropped question + context code blocks) -->
+          <div class="image-area">
+            <div id="imageStrip" class="image-strip">
+              <!-- Cropped images are appended here -->
+            </div>
+            <button id="fullPageOverlayBtn" class="full-page-btn" type="button">📄 전체 페이지 보기</button>
+          </div>
+
+          <!-- Interactive Choices Selector (보기) -->
+          <div class="quiz-section">
+            <h3>📝 보기를 선택하세요</h3>
+            <div id="choicesContainer" class="choices-container">
+              <!-- Dynamically populated choice cards -->
+            </div>
+          </div>
+
+          <!-- Feedback Alert Banner -->
+          <div id="feedbackBanner" class="feedback-banner" hidden>
+            <span class="feedback-icon"></span>
+            <span id="feedbackText">결과 피드백</span>
+          </div>
+
+          <!-- Excel Evidence Box -->
+          <div id="evidenceBox" class="evidence-box" hidden>
+            <div class="evidence-header">
+              <span class="table-icon">📊</span>
+              <h4>정답표 근거 (정답표.xlsx)</h4>
+            </div>
+            <div class="evidence-body" style="display: flex; flex-direction: column; gap: 12px;">
+              <p id="evidenceText">정답표의 근거 정보가 표시됩니다.</p>
+              <div id="evidenceImageContainer" class="evidence-image-container">
+                <img id="evidenceImg" src="" alt="엑셀 정답표 크롭 이미지" style="max-width: 100%; border: 1px solid var(--card-border); border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); background: white;" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Explanation Accordion (AI 해설) -->
+          <div id="explanationBox" class="explanation-box" hidden>
+            <div class="explanation-header">
+              <span class="lightbulb">💡</span>
+              <h4>AI 상세 해설</h4>
+            </div>
+            <div class="explanation-body">
+              <p id="explanationText">이 문제에 대한 설명이 들어갑니다.</p>
+            </div>
+          </div>
+
+          <!-- Bottom Control Actions -->
+          <div class="actions">
+            <button id="doneBtn" type="button" class="btn-secondary">완료 표시</button>
+            <button id="resetBtn" type="button" class="btn-secondary">이 문제 다시 풀기</button>
+            <button id="shuffleBtn" type="button" class="btn-secondary">순서 섞기</button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Overlay modal for viewing full page PDF sheet -->
+    <div id="fullPageModal" class="modal" hidden>
+      <div class="modal-content">
+        <span id="closeModal" class="close-modal">&times;</span>
+        <h3>기출문제 원본 페이지</h3>
+        <div class="modal-body">
+          <img id="fullPageImg" src="" alt="기출문제 원본 전체 페이지" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Load compiled question database first, then app logic -->
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
